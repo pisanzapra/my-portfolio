@@ -1,6 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
+import "./sass/main.scss";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 import Home from "./Home";
 
 const App = () => {
