@@ -5,3 +5,9 @@
   margin: 8px;
   display: inline-block;
 }
+
+.tech-stack-item {
+  color: #265D7E;
+  font-weight: bold;
+  display: inline-block;
+}
