@@ -5,7 +5,7 @@ const Nav = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container-xxl">
         <Link to={"/"} className="navbar-brand">
           <i className="bi bi-code-square fs-2"> </i>
@@ -25,22 +25,22 @@ const Nav = () => {
         <div
           id="navbarNav"
           style={show ? { display: "block" } : { display: "none" }}
-          className={"collapse navbar-collapse"}
+          className={"collapse navbar-collapse fs-4"}
         >
-          <ul className="navbar-nav">
+          <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <Link to={"/"} className="nav-link">
-                About
+                ABOUT
               </Link>
             </li>
             <li className="nav-item">
               <Link to={"/"} className="nav-link">
-                Projects
+                PROJECTS
               </Link>
             </li>
             <li className="nav-item">
               <Link to={"/"} className="nav-link">
-                Contact
+                CONTACT
               </Link>
             </li>
           </ul>
