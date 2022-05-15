@@ -19,15 +19,13 @@ const FeaturedProject = () => {
                 <p className="fs-4">
                   <span className="tech-stack-item">
                     React / React Router / React Transition Group
-                  </span>
-                  |&nbsp;
+                  </span>&nbsp;|&nbsp;
                   <span className="tech-stack-item">
                     
                     Mongoose / MongoDB
-                  </span>
-                  |&nbsp;
-                  <span className="tech-stack-item"> Node</span> |&nbsp;
-                  <span className="tech-stack-item"> Express</span> |&nbsp;
+                  </span>&nbsp;|&nbsp;
+                  <span className="tech-stack-item"> Node</span>&nbsp;|&nbsp;
+                  <span className="tech-stack-item"> Express</span>&nbsp;|&nbsp;
                   <span className="tech-stack-item"> Bootstrap</span>
                 </p>
                 <p className="fs-4">
