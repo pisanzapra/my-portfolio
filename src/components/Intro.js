@@ -7,13 +7,13 @@ const Intro = () => {
   return (
     <section className="container-fluid bg-dark">
       <div className="container-xxl text-center py-5">
-      <img src={photo} alt="Photo of me" className="rounded-circle" />
+      <img src={photo} alt="Profile pic" className="rounded-circle" />
         <h2 className="display-5 text-white py-2">Hi, I'm Gabriella</h2>
         <p className="text-white fs-4">
           a self-taught developer transitioning from digital marketing to
           development
         </p>
-        <a href="https://github.com/pisanzapra" target="_blank">
+        <a href="https://github.com/pisanzapra" target="_blank" rel="noreferrer">
           <i
             className="bi bi-github fs-2 text-light px-2"
             title="View Github profile"

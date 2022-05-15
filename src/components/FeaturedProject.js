@@ -52,7 +52,7 @@ const FeaturedProject = () => {
                 <img
                   src={placeholder}
                   className="w-100"
-                  alt="Placeholder image"
+                  alt="Placeholder"
                 />
               </div>
             </div>
