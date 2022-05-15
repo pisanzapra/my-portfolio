@@ -2,9 +2,9 @@ import React from "react";
 
 const TechnicalSkills = () => {
   return (
-    <section className="container-fluid bg-light">
+    <section className="container-fluid bg-success">
       <div className="container-xxl py-5 text-center text-align-center">
-        <h2 className="display-5 text-primary py-2 fw-bold text-uppercase">
+        <h2 className="display-5 text-dark py-2 fw-bold text-titlecase">
           Technical Skills
         </h2>
 
