@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.heading-1 {
+  font-family: 'Archivo Black', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.heading-2 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
 .skill {
   background-color: #265d7e;
   color: white;
   padding: 4px 8px;
   margin: 8px;
   display: inline-block;
+  font-weight: 500;
 }
 
 .tech-stack-item {

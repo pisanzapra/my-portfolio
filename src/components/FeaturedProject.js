@@ -5,7 +5,7 @@ const FeaturedProject = () => {
   return (
     <section className="container-fluid bg-white">
       <div className="container-xxl py-5 ">
-        <h2 className="display-5 text-primary py-2 fw-bold text-titlecase text-center text-align-center">
+        <h2 className="display-4 text-primary py-2 text-uppercase text-center text-align-center">
           Featured Project
         </h2>
 
@@ -13,7 +13,7 @@ const FeaturedProject = () => {
           <div className="card-body py-4 d-flex flex-column">
             <div className="row">
               <div className="col-md-8">
-                <h3 className="display-7 text-dark py-2 text-uppercase fw-bold">
+                <h3 className="display-7 text-dark py-2 text-uppercase fw-bold heading-1">
                   Flashcards
                 </h3>
                 <p className="fs-4">
