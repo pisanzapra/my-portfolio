@@ -1,4 +1,5 @@
 import React from "react";
+
 import Project from "./Project";
 
 const FeaturedProject = () => {
@@ -9,16 +10,18 @@ const FeaturedProject = () => {
           Featured Project
         </h2>
         <Project
-        projectName="Flashcards"
+          projectName="Flashcards"
           techStack={[
             "React / React Router / React Transition Group",
             "Mongoose / MongoDB",
             "Node",
             "Express",
             "Bootstrap",
-          ]} 
+          ]}
           projectDescription="Full stack MERN application allowing users to register and create
           their own flashcards to help them memorise new concepts."
+          demoUrl="#"
+          repoUrl="https://github.com/pisanzapra/mern-flashcards"
         />
       </div>
     </section>
