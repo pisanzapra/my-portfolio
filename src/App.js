@@ -5,9 +5,10 @@ import "./App.css";
 import "./sass/main.scss";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import ContactFooter from "./components/ContactFooter";
+import Home from "./components/Home";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
@@ -15,7 +16,9 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route exact path={"/"} element={<Home />} />
+        <Route path={"/projects"} element={<Projects />} />
       </Routes>
+
       <ContactFooter />
     </div>
   );

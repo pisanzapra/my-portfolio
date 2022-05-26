@@ -12,7 +12,7 @@ const Project = (props) => {
   }
 
   return (
-    <div className="card p-4 h-100 shadow">
+    <div className="card p-4 h-100 shadow mb-4">
       <div className="card-body py-4 d-flex flex-column">
         <div className="row">
           <div className="col-md-8">
