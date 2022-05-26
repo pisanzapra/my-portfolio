@@ -2,7 +2,6 @@ import React from "react";
 import Intro from "./Intro";
 import TechnicalSkills from "./TechnicalSkills";
 import FeaturedProject from "./FeaturedProject";
-import ContactFooter from "./ContactFooter";
 
 const Home = () => {
   return (
@@ -10,7 +9,6 @@ const Home = () => {
       <Intro />
       <TechnicalSkills />
       <FeaturedProject />
-      <ContactFooter />
     </React.Fragment>
   );
 };

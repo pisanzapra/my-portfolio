@@ -7,6 +7,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
+import ContactFooter from "./components/ContactFooter";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Routes>
         <Route exact path={"/"} element={<Home />} />
       </Routes>
+      <ContactFooter />
     </div>
   );
 };
