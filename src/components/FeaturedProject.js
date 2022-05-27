@@ -1,11 +1,13 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import Project from "./Project";
 
 const FeaturedProject = () => {
   return (
     <section className="container-fluid bg-white">
-      <div className="container-xxl py-5 ">
+      <div className="container-xxl py-5">
         <h2 className="display-4 text-primary py-2 text-uppercase text-center text-align-center">
           Featured Project
         </h2>
@@ -23,6 +25,11 @@ const FeaturedProject = () => {
           demoUrl="#"
           repoUrl="https://github.com/pisanzapra/mern-flashcards"
         />
+        <div className="text-center">
+          <Link to={"/projects"} className="fs-4">
+            View all projects
+          </Link>
+        </div>
       </div>
     </section>
   );

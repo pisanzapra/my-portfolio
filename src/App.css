@@ -24,13 +24,15 @@
   display: inline-block;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 a.footer:link,
 a.footer:visited {
   color: white;
-  text-decoration: none;
 }
 
 a.footer:hover {
   color: #b3d4d9;
-  text-decoration: none;
 }
