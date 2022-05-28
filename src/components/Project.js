@@ -24,7 +24,8 @@ const Project = (props) => {
             <a
               href={props.demoUrl}
               role="button"
-              target="_blank"
+              target="_blank" 
+              rel="noreferrer" 
               className="btn btn-dark px-3 fs-4 button-100 me-3"
             >
               <i className="bi bi-play-circle-fill" title="Live demo"></i>
@@ -32,7 +33,8 @@ const Project = (props) => {
             </a>
             <a
               href={props.repoUrl}
-              target="_blank"
+              target="_blank" 
+              rel="noreferrer" 
               role="button"
               className="btn btn-dark px-3 fs-4 button-100"
             >
