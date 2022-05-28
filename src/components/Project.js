@@ -1,7 +1,5 @@
 import React from "react";
 
-import placeholder from "../images/placeholder.jpg";
-
 import TechStackItem from "./TechStackItem";
 
 const Project = (props) => {
@@ -43,7 +41,7 @@ const Project = (props) => {
             </a>
           </div>
           <div className="col-md-4">
-            <img src={placeholder} className="w-100" alt="Placeholder" />
+            <img src={props.img} className="w-100" alt="Screenshots" />
           </div>
         </div>
       </div>

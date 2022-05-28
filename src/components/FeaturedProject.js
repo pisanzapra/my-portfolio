@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 import Project from "./Project";
 
+import placeholder1 from "../images/placeholder.jpg";
+
 const FeaturedProject = () => {
   return (
     <section className="container-fluid bg-white">
@@ -23,7 +25,8 @@ const FeaturedProject = () => {
           projectDescription="Full stack MERN application allowing users to register and create
           their own flashcards to help them memorise new concepts."
           demoUrl="#"
-          repoUrl="https://github.com/pisanzapra/mern-flashcards"
+          repoUrl="https://github.com/pisanzapra/mern-flashcards" 
+          img={placeholder1}
         />
         <div className="text-center">
           <Link to={"/projects"} className="fs-4">
