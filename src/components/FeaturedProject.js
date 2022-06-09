@@ -24,7 +24,7 @@ const FeaturedProject = () => {
           ]}
           projectDescription="Full stack MERN application allowing users to register and create
           their own flashcards to help them memorise new concepts."
-          demoUrl="#"
+          demoUrl="https://mernflashcards.netlify.app"
           repoUrl="https://github.com/pisanzapra/mern-flashcards" 
           img={placeholder1}
         />
