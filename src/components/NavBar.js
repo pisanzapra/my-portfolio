@@ -39,9 +39,9 @@ const Nav = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={"/contact"} className="nav-link">
+              <a href="mailto:hello@hiregabriella.co.uk" className="nav-link">
                 CONTACT
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

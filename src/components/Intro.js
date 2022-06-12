@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import photo from "../images/me.jpg";
 
@@ -19,12 +18,12 @@ const Intro = () => {
             title="View Github profile"
           ></i>
         </a>
-        <Link to={"/"}>
+        <a href="mailto:hello@hiregabriella.co.uk">
           <i
             className="bi bi-envelope fs-2 text-light px-2"
             title="Contact me"
           ></i>
-        </Link>
+        </a>
       </div>
     </section>
   );
