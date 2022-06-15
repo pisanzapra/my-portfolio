@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import Project from "./Project";
 
-import placeholder1 from "../images/placeholder.jpg";
+import flashcardssccreenshots from "../images/flashcards-screenshots.png";
 
 const FeaturedProject = () => {
   return (
@@ -25,8 +25,8 @@ const FeaturedProject = () => {
           projectDescription="Full stack MERN application allowing users to register and create
           their own flashcards to help them memorise new concepts."
           demoUrl="https://mernflashcards.netlify.app"
-          repoUrl="https://github.com/pisanzapra/mern-flashcards" 
-          img={placeholder1}
+          repoUrl="https://github.com/pisanzapra/mern-flashcards"
+          img={flashcardssccreenshots}
         />
         <div className="text-center">
           <Link to={"/projects"} className="fs-4">

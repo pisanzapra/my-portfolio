@@ -2,9 +2,10 @@ import React from "react";
 
 import Project from "./Project";
 
-import placeholder1 from "../images/placeholder.jpg";
-import placeholder2 from "../images/placeholder.jpg";
-import placeholder3 from "../images/placeholder.jpg";
+import flashcardsscreenshots from "../images/flashcards-screenshots.png";
+import felinefavesscreenshots from "../images/felinefaves-screenshots.png";
+import doitscreenshots from "../images/doit-screenshots.png";
+import portfolioscreenshots from "../images/portfolio-screenshots.png";
 
 const Projects = () => {
   return (
@@ -27,15 +28,15 @@ const Projects = () => {
           their own flashcards to help them memorise new concepts."
             demoUrl="https://mernflashcards.netlify.app/"
             repoUrl="https://github.com/pisanzapra/mern-flashcards"
-            img={placeholder1}
+            img={flashcardsscreenshots}
           />
           <Project
             projectName="Feline Faves"
             techStack={["React", "HTML", "CSS", "JavaScript"]}
             projectDescription="Frontend React application which allows users to fetch a new cat picture from an API and save their favourites to local storage."
             demoUrl="https://felinefaves.netlify.app/"
-            repoUrl="https://github.com/pisanzapra/react-cat-app" 
-            img={placeholder2}
+            repoUrl="https://github.com/pisanzapra/react-cat-app"
+            img={felinefavesscreenshots}
           />
           <Project
             projectName="Do It"
@@ -43,7 +44,7 @@ const Projects = () => {
             projectDescription="A simple fullstack to do app built using Flask."
             demoUrl="https://flaskdoit.herokuapp.com/"
             repoUrl="https://github.com/pisanzapra/flasktodo"
-            img={placeholder3}
+            img={doitscreenshots}
           />
           <Project
             projectName="Portfolio website"
@@ -56,8 +57,8 @@ const Projects = () => {
             ]}
             projectDescription="A home for my key projects (this website)."
             demoUrl="https://gabriellasportfolio.netlify.app/"
-            repoUrl="https://github.com/pisanzapra/my-portfolio" 
-            img={placeholder3}
+            repoUrl="https://github.com/pisanzapra/my-portfolio"
+            img={portfolioscreenshots}
           />
         </div>
       </section>
