@@ -1,5 +1,7 @@
 # Portfolio
-A home for my projects (a current work in progress!)
+A home for my key projects.
+
+Live website: https://gabriellasportfolio.netlify.app/
 
 ## Technologies
 These are some of the technologies I used to create this:
