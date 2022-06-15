@@ -38,6 +38,14 @@ const Projects = () => {
             img={placeholder2}
           />
           <Project
+            projectName="Do It"
+            techStack={["Flask (incl. SQLAlchemy)", "HTML", "CSS", "Bootstrap"]}
+            projectDescription="A simple fullstack to do app built using Flask."
+            demoUrl="https://flaskdoit.herokuapp.com/"
+            repoUrl="https://github.com/pisanzapra/flasktodo"
+            img={placeholder3}
+          />
+          <Project
             projectName="Portfolio website"
             techStack={[
               "React / React Router",

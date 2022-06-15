@@ -7,11 +7,6 @@ const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container-xxl">
-        <Link to={"/"} className="navbar-brand">
-          <i className="bi bi-code-square fs-2"> </i>
-          <span className="fw-medium fs-2"> Gabriella's Portfolio</span>
-        </Link>
-
         <button
           className="navbar-toggler"
           type="button"
