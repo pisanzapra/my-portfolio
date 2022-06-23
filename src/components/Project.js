@@ -19,26 +19,33 @@ const Project = (props) => {
             </h3>
             <p className="fs-4">{displayTechStack()}</p>
             <p className="fs-4">{props.projectDescription}</p>
-            <a
-              href={props.demoUrl}
-              role="button"
-              target="_blank" 
-              rel="noreferrer" 
-              className="btn btn-dark px-3 fs-4 button-100 me-3"
-            >
-              <i className="bi bi-play-circle-fill" title="Live demo"></i>
-              <span> Live demo</span>
-            </a>
-            <a
-              href={props.repoUrl}
-              target="_blank" 
-              rel="noreferrer" 
-              role="button"
-              className="btn btn-dark px-3 fs-4 button-100"
-            >
-              <i className="bi bi-github" title="View repo"></i>
-              <span> View repo</span>
-            </a>
+
+            <div className="row gy-2 pb-4">
+              <div className="col-md-auto">
+                <a
+                  href={props.demoUrl}
+                  role="button"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-dark px-3 fs-4 button-100 me-3"
+                >
+                  <i className="bi bi-play-circle-fill" title="Live demo"></i>
+                  <span> Live demo</span>
+                </a>
+              </div>
+              <div className="col-md-auto">
+                <a
+                  href={props.repoUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  role="button"
+                  className="btn btn-dark px-3 fs-4 button-100"
+                >
+                  <i className="bi bi-github" title="View repo"></i>
+                  <span> View repo</span>
+                </a>
+              </div>
+            </div>
           </div>
           <div className="col-md-4">
             <img src={props.img} className="w-100" alt="Screenshots" />
