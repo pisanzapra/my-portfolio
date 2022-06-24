@@ -1,11 +1,25 @@
 import React from "react";
 
-import TechStackItem from "./TechStackItem";
-
 const Project = (props) => {
   function displayTechStack() {
-    return props.techStack.map((item, idx) => {
-      return <TechStackItem key={idx} item={item} />;
+    const techStackItems = props.techStack;
+
+    return techStackItems.map((item, idx, techStackItems) => {
+      // If it's the final item in the array
+      if (idx + 1 === techStackItems.length) {
+        return (
+          <span className="tech-stack-item" key={idx}>
+            {item}
+          </span>
+        );
+      } else {
+        // If it's not the final item
+        return (
+          <React.Fragment key={idx}>
+            <span className="tech-stack-item">{item}</span>&nbsp;|&nbsp;
+          </React.Fragment>
+        );
+      }
     });
   }
 
