@@ -17,7 +17,9 @@ const TechnicalSkills = () => {
           <span className="skill">CSS</span>
           <span className="skill">HTML</span>
           <span className="skill">JavaScript</span>
+          <span className="skill">TypeScript</span>
           <span className="skill">Python</span>
+          <span className="skill">C</span>
           <span className="skill">Flask</span>
           <span className="skill">SQLite</span>
           <span className="skill">Git</span>
