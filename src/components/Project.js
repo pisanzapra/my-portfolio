@@ -28,7 +28,7 @@ const Project = (props) => {
       <div className="card-body py-4 d-flex flex-column">
         <div className="row">
           <div className="col-md-8">
-            <h3 className="display-7 text-dark py-2 text-uppercase fw-bold heading-1">
+            <h3 className="display-7 text-dark py-2 fw-bold heading-1">
               {props.projectName}
             </h3>
             <p className="fs-4">{displayTechStack()}</p>
@@ -62,7 +62,7 @@ const Project = (props) => {
             </div>
           </div>
           <div className="col-md-4">
-            <img src={props.img} className="w-100" alt="Screenshots" />
+            <img src={props.img} className="w-100" alt="Screenshots of how the project looks on desktop and mobile" />
           </div>
         </div>
       </div>

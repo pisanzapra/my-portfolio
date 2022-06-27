@@ -25,17 +25,17 @@ const Nav = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <Link to={"/"} className="nav-link">
-                ABOUT
+                About
               </Link>
             </li>
             <li className="nav-item">
               <Link to={"/projects"} className="nav-link">
-                PROJECTS
+                Projects
               </Link>
             </li>
             <li className="nav-item">
               <a href="mailto:hello@hiregabriella.co.uk" className="nav-link">
-                CONTACT
+                Contact
               </a>
             </li>
           </ul>

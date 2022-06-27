@@ -10,7 +10,7 @@ const FeaturedProject = () => {
   return (
     <section className="container-fluid bg-white">
       <div className="container-xxl py-5">
-        <h2 className="display-4 text-primary py-2 text-uppercase text-center text-align-center">
+        <h2 className="display-4 text-primary py-2 text-center text-align-center">
           Featured Project
         </h2>
         <Project
